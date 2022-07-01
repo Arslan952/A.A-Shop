@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:shop/Widget/product_item.dart';
 
 import '../Widget/product_grid.dart';
-import '../model/product.dart';
+import '../providers/product.dart';
 
 class ProductOverviewScreen extends StatelessWidget {
   final List<Product> loadedProduct = [
